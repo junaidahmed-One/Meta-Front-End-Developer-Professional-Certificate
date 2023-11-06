@@ -20,22 +20,22 @@
   <main>
     <form>
         <div>
-            <label for="username">Username</label>
-            <input type="text" id="username" name="username" required minlength="2">
+            <label for="user_email">Email Address</label>
+            <input type="email" id="user_email" name="Email Address">
         </div>
         <div>
-            <label for="pwd">Password</label>
-            <input type="password" id="pwd" name="password" required minlength="2">
+            <label for="date_booking">Date of Booking</label>
+            <input type="date" id="date_booking" name="Date of Booking">
         </div>
-        <fieldset id="roles">
-            <label>
-                <input type="radio" value="admin" name="roles">Admin
-            </label>
-            <label>
-                <input type="radio" value="user" name="roles">User
-            </label>
-        </fieldset>
-        <button type="submit">Log In</button>
+        <div>
+            <label for="number_people">Number of people</label>
+            <input type="number" id="number_people" name="Number of people" min="1" max="8">
+        </div>
+        <div>
+            <input type="checkbox" id="check_policy" name="cancel policy">
+            <label for="check_policy">I agree to the cancellation policy</label>
+        </div>
+        <button type="submit">Book Now</button>
     </form>
   </main>
 </body>
