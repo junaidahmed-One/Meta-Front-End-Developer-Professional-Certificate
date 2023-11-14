@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    font-family: 'Papyrus';
+}
+h1{
+    text-align: center;
+    text-shadow: 0 0 30px green,
+                0 0 5px white;
+}

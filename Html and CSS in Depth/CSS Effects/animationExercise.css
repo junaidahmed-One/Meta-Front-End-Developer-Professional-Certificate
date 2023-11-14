@@ -1,0 +1,29 @@
+@keyframes bounce {
+    from{
+        transform: translate3d(0,0,0);
+        background-color: red;
+    }
+
+    to{
+        transform: translate3d(640px,0,0);
+        background-color: blue;
+    }
+}
+
+#ball{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: red;
+    animation: bounce 2s linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+
+.sample-class{
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    transform: translate3d(10px, 20px, 30px);
+}

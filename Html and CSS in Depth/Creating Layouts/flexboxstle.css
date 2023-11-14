@@ -1,0 +1,43 @@
+.box{
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+}
+
+.box3{
+    background-color: blanchedalmond;
+    align-self: center;
+    flex: 1 1 auto;
+}
+
+.container{
+    display: inline-flex;
+    flex: 1 1 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.icon{
+    padding: 0.8rem;
+}
+
+.searchBox{
+    border: 0;
+    flex: 1;
+}
+
+.searchButton{
+    color: white;
+    background: #0f4a8a;
+    border: 0;
+    padding: 0.8rem;
+    border-radius: 8px;
+}
